@@ -15,6 +15,7 @@
 		7FCD8341B9744D739134A20551B58911 /* Pods-testCoco_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD22042846C8E77128774549E653A5D9 /* Pods-testCoco_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9862171204D52355705C55B96DC66963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C5931E3B69A877AF9EB4DBDBD5B07A8B /* testCoco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67001A130D2525ABAF52695C0BA9AAC2 /* testCoco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA67C33121430F9500527D82 /* testFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67C33021430F9500527D82 /* testFile.swift */; };
 		CAFB02FFE5E0A81C4E46E0C0FD945D89 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E91F42D42A193305788C626ACD092 /* ReplaceMe.swift */; };
 		DD1964BC32DD9E4D412D864E7DE0F9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,9 +38,9 @@
 		1F2DC9C93FDEF54B392C000783DD8102 /* Pods-testCoco_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testCoco_Example.release.xcconfig"; sourceTree = "<group>"; };
 		268AF255AA758264EFBB9E6417FD0131 /* testCoco.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = testCoco.modulemap; sourceTree = "<group>"; };
 		2EA38F1122A599541F2CB3CFE125975E /* Pods-testCoco_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testCoco_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3973905DDADE9C4855934330F64D900E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3D1B8AD7F61DAE76B9A4495BC0EEB74B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4056EC6404A4D034D7C1744FF9E92035 /* testCoco.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = testCoco.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3973905DDADE9C4855934330F64D900E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D1B8AD7F61DAE76B9A4495BC0EEB74B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4056EC6404A4D034D7C1744FF9E92035 /* testCoco.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = testCoco.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E7EAFA17FB7315EF99217E07F7BEC9A /* testCoco.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = testCoco.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67001A130D2525ABAF52695C0BA9AAC2 /* testCoco-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "testCoco-umbrella.h"; sourceTree = "<group>"; };
@@ -48,16 +49,17 @@
 		73EC5BFCEE2ABFAE0A8B06F2339EE375 /* Pods-testCoco_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testCoco_Example.modulemap"; sourceTree = "<group>"; };
 		741CD2011309A938E01B96B163A8027E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A4E91F42D42A193305788C626ACD092 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = testCoco/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		7AC7A71EF2F7E941FF8D3CDB20235ECF /* Pods_testCoco_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testCoco_Tests.framework; path = "Pods-testCoco_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CB6CCFC3FBBA478EBF706C7DA3F9C1 /* Pods_testCoco_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testCoco_Example.framework; path = "Pods-testCoco_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC7A71EF2F7E941FF8D3CDB20235ECF /* Pods_testCoco_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCoco_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CB6CCFC3FBBA478EBF706C7DA3F9C1 /* Pods_testCoco_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCoco_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E38BF7C9FDA141665F6FF415D541CD5 /* Pods-testCoco_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testCoco_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		956AF1C8EB3DBF608DE8EE5A26D131DA /* testCoco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = testCoco.framework; path = testCoco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956AF1C8EB3DBF608DE8EE5A26D131DA /* testCoco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testCoco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199D1E474DF67532353D524A29464A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A71479B7B0AEC54F3F891FAE4D61A7ED /* Pods-testCoco_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testCoco_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD22042846C8E77128774549E653A5D9 /* Pods-testCoco_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testCoco_Example-umbrella.h"; sourceTree = "<group>"; };
 		C3E9F3F974A6A14053F07503CF8DB203 /* Pods-testCoco_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testCoco_Example-dummy.m"; sourceTree = "<group>"; };
 		C5A218B722C8D57449BE075FEE842820 /* Pods-testCoco_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testCoco_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA67C33021430F9500527D82 /* testFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFile.swift; sourceTree = "<group>"; };
 		CC739350EB19F9E962E753160BB80384 /* Pods-testCoco_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testCoco_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D35E3DBB5B3775168DB7362991A97D7F /* Pods-testCoco_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testCoco_Tests.modulemap"; sourceTree = "<group>"; };
 		D8A489EDB87E9F11C0EDFC6BD3D1A3B4 /* Pods-testCoco_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testCoco_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		A8BE218A8450F9D02C6FFAF619E720D0 /* testCoco */ = {
 			isa = PBXGroup;
 			children = (
+				CA67C32F21430F4000527D82 /* testCocoClass */,
 				7A4E91F42D42A193305788C626ACD092 /* ReplaceMe.swift */,
 				30B01DCFFD5FE87C5B745C29A08C854C /* Pod */,
 				46ED8B4AD0142C790126311CDBF95DC2 /* Support Files */,
@@ -210,6 +213,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA67C32F21430F4000527D82 /* testCocoClass */ = {
+			isa = PBXGroup;
+			children = (
+				CA67C33021430F9500527D82 /* testFile.swift */,
+			);
+			path = testCocoClass;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -310,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					A0DAB66303DC1696F41FB4EF3A1BE511 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -336,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A452D9F69722F0C25FBFD4EF88A7A7A /* Pods-testCoco_Example-dummy.m in Sources */,
+				CA67C33121430F9500527D82 /* testFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F2DC9C93FDEF54B392C000783DD8102 /* Pods-testCoco_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,6 +539,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -655,6 +674,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC739350EB19F9E962E753160BB80384 /* Pods-testCoco_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -679,6 +699,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

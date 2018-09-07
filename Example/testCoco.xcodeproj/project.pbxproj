@@ -29,12 +29,12 @@
 
 /* Begin PBXFileReference section */
 		0917F2DEA3B3479A432588AE /* Pods-testCoco_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCoco_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCoco_Tests/Pods-testCoco_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		09AEF89F358C96CF221814A2 /* testCoco.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testCoco.podspec; path = ../testCoco.podspec; sourceTree = "<group>"; };
+		09AEF89F358C96CF221814A2 /* testCoco.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testCoco.podspec; path = ../testCoco.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DC7761458309B3BB088E58C /* Pods_testCoco_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCoco_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F03CE3D0326821A37BDCC95 /* Pods-testCoco_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCoco_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCoco_Example/Pods-testCoco_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		24869EE75D494559FA5DB0B8 /* Pods_testCoco_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCoco_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBD6D26663C4B2EA832E04B /* Pods-testCoco_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCoco_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCoco_Tests/Pods-testCoco_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43D8BF83ECBF0B90AAF0B2B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43D8BF83ECBF0B90AAF0B2B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* testCoco_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCoco_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACE51AFB9204008FA782 /* testCoco_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCoco_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8A8A1999891CE15FF3947FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A8A1999891CE15FF3947FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A24F9B7E933233AF661B28C1 /* Pods-testCoco_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCoco_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCoco_Example/Pods-testCoco_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -523,7 +523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -538,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
